@@ -13,10 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        pr(p: "他有那鼻子也有那眉毛眼睛不会眨")
+        Pr(p: "他有那鼻子也有那眉毛眼睛不会眨")
+        Dy(d: "know shouldn't show my face tonight") 
     }
-    func pr(p:String){
+    func Pr(p:String){
         print(p)
+    }
+    func Dy(d:String){
+      print(d)
     }
 
 
