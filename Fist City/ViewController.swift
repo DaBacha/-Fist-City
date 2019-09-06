@@ -18,6 +18,11 @@ class ViewController: UIViewController {
     func pr(p:String){
         print(p)
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("Will You Still Love Me Tomorrow")
+    }
 
 
 }
